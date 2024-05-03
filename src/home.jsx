@@ -5,6 +5,7 @@ export default function Home() {
     return (
         <>
             <h1>Pagina Inicial</h1>
+            <h2>Caio Ramineli</h2>
             <nav>
                 <ul>
                     <li>
