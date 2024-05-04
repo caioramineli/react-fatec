@@ -1,0 +1,64 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+li {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+#container-contador {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+}
+
+#container-contador h1, h2 {
+    line-height: 0.2;
+}
+
+#container-contador #reload {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+}
+
+#containerHomemMulher {
+    display: flex; 
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+
+#container-contador span {
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+
+#containerHomem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerMulher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menosH, #menosM, #maisH, #maisM{
+    width: 45px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+img {
+    width: 150px;
+}
