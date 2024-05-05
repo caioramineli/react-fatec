@@ -28,6 +28,7 @@ li {
     top: 5px;
     right: 5px;
     width: 40px;
+    cursor: pointer;
 }
 
 #containerHomemMulher {
@@ -57,6 +58,7 @@ li {
     width: 45px;
     margin-right: 5px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 img {

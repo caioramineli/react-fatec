@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Letreiro = () => {
-    const [text, setText] = useState('');
+    const [texto, setText] = useState('');
     const palavra = 'Conheça a Fatec';
 
     useEffect(() => {
@@ -25,7 +25,7 @@ const Letreiro = () => {
     return (
         <>
             <h1>Meu Letreiro</h1>           
-            <h1>{text}</h1>
+            <h1>{texto}</h1>
         </>
     )
 };
