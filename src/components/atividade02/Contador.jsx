@@ -20,7 +20,7 @@ export default function Contador() {
     const subtrairHomem = () => {
         if (contadorHomem > 0) {
             setContadorHomem(contadorHomem - 1);
-            setContadorTotal(contadorTotal - 1); 
+            setContadorTotal(contadorTotal - 1);
         }
     };
 
