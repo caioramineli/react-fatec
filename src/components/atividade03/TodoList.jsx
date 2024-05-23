@@ -1,4 +1,3 @@
-
 const today = new Date()
 
 function formatDate(date) {
