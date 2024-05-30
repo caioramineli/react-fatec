@@ -14,7 +14,7 @@ export default function MovingDot() {
             }}
             style={{
                 position: 'relative',
-                width: '100vw',
+                width: '100%',
                 height: '100vh',
             }}>
             <div style={{
@@ -27,6 +27,7 @@ export default function MovingDot() {
                 width: 20,
                 height: 20,
             }} />
+        <h3>MovingDot</h3>
         </div>
     );
 }
