@@ -4,7 +4,7 @@ export default function Counter() {
     const [number, setNumber] = useState(0);
     return (
         <>
-            <h1>Counter</h1>
+            <h3>Counter</h3>
             <h1>{number}</h1>
             <button onClick={() => {
                 setNumber(n => n + 1);
