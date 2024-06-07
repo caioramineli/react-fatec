@@ -1,5 +1,5 @@
 import Buttons from "./Buttons"
-// import { useState } from "react";
+import CharacterCounter from "./CharacterCouter"
 
 export default function Regex() {
 
@@ -10,17 +10,8 @@ export default function Regex() {
             <h2>Mult Functional Counters</h2>
 
             <Buttons />
+            <CharacterCounter />
             
-            <h2>Character Counter</h2>
-            <input type="text" placeholder="Digite algo..." />
-
-            <div id="container-contadores">
-                <span>Text Length: { }</span>
-                <span>Alphabets: { }</span>
-                <span>Numbers: { }</span>
-                <span>Symbols: { }</span>
-                <span>Spaces: { }</span>
-            </div>
         </div>
     )
 }
